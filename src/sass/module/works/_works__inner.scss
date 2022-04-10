@@ -1,0 +1,19 @@
+@use "global" as *;
+.works__inner {
+  // size
+  width: 100%;
+  // decoration
+  background-color: #111;
+  @include mq(md) {
+    // size
+    width: 100%;
+    height: rem(677);
+    // space
+    // padding-top: rem(127);
+    padding-top: rem(119.03);
+    padding-left: rem(384);
+    // decoration
+  }
+  @include mq(xl) {
+  }
+}
