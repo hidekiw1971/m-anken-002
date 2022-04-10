@@ -4,7 +4,8 @@
 
 ## 概要
 
-- ｘｘｘ
+- 模擬案件の`works`の部分
+- PerfectPixel は未調整
 - https://www.notion.so/000_web-component-index-c4b399010bf342e9b4e2ed516cf9c730
 
 ## 仕様
@@ -21,7 +22,7 @@
 ## 使い方
 
 - 「copy start」から「copy end」をコピペ。
-- css: src -> module -> xxx をコピペ。
+- css: src -> module -> `button`、`works`、`css/swiper-bundle.min.css`、`js/script.js` をコピペ。
 
 ## w3c html チェック結果
 
@@ -42,7 +43,7 @@
 
 ## 更新履歴
 
-- 2022/mm/dd 初版 作成完了
+- 2022/4/10 模擬案件の`works`完成
 
 ## 環境・使い方
 

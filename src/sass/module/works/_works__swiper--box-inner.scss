@@ -1,10 +1,9 @@
 @use "global" as *;
-.works__title {
+.works__swiper--box-inner {
   // size
-  display: inline-block;
-  width: 100%;
+  margin-bottom: rem(35);
   // ajustment
-  text-align: center;
+  position: relative;
   @include mq(md) {
   }
   @include mq(xl) {
