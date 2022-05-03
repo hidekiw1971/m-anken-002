@@ -324,7 +324,7 @@ select::-ms-expand {
   .works__swiper--box {
     position: absolute;
     top: 50%;
-    left: 0%;
+    left: 22%;
     -webkit-transform: translate(-56%, -47%);
             transform: translate(-56%, -47%);
   }
@@ -398,6 +398,7 @@ select::-ms-expand {
   width: 23.4375rem;
   height: 261px;
   height: 16.3125rem;
+  overflow: hidden;
 }
 @media screen and (min-width: 768px) {
   .swiper.works__mySwiper {
