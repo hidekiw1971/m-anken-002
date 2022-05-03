@@ -173,7 +173,7 @@ select::-ms-expand {
   display: none;
 }
 
-.btn {
+.works__btn {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 20px;
   font-size: 1.25rem;
@@ -197,14 +197,14 @@ select::-ms-expand {
   border: solid 1px #fff;
 }
 @media screen and (min-width: 768px) {
-  .btn {
+  .works__btn {
     font-size: 1rem;
     font-weight: 500;
     letter-spacing: 0.125rem;
     line-height: 3.375;
   }
 }
-.btn::before {
+.works__btn::before {
   content: "";
   position: absolute;
   top: 0;
@@ -217,11 +217,11 @@ select::-ms-expand {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-.btn:hover:before {
+.works__btn:hover:before {
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
 }
-.btn:hover span {
+.works__btn:hover span {
   position: relative;
   z-index: 1;
   -webkit-transition: 0.3s;
@@ -324,7 +324,7 @@ select::-ms-expand {
   .works__swiper--box {
     position: absolute;
     top: 50%;
-    left: 0%;
+    left: 22%;
     -webkit-transform: translate(-56%, -47%);
             transform: translate(-56%, -47%);
   }
@@ -393,9 +393,17 @@ select::-ms-expand {
     width: 100%;
   }
 }
-#test1 {
-  max-width: 557px;
-  max-width: 34.8125rem;
-  width: 100%;
+.swiper.works__mySwiper {
+  width: 375px;
+  width: 23.4375rem;
+  height: 261px;
+  height: 16.3125rem;
+  overflow: hidden;
+}
+@media screen and (min-width: 768px) {
+  .swiper.works__mySwiper {
+    width: 34.8125rem;
+    height: 24.3125rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

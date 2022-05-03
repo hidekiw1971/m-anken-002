@@ -1,5 +1,5 @@
 @use "global" as *;
-.btn {
+.works__btn {
   // font
   font-family: "Noto Sans JP", sans-serif;
   font-size: rem(20);
@@ -34,7 +34,7 @@
   }
 }
 
-.btn::before {
+.works__btn::before {
   content: "";
   position: absolute;
   top: 0;
@@ -51,7 +51,7 @@
   }
 }
 
-.btn:hover:before {
+.works__btn:hover:before {
   transform: translate3d(0, 0, 0);
   @include mq(md) {
   }
@@ -60,7 +60,7 @@
 }
 
 // 文字の表示（ホバー時）
-.btn:hover span {
+.works__btn:hover span {
   position: relative;
   z-index: 1;
   transition: 0.3s;
